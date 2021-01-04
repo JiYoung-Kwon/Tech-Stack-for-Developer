@@ -25,7 +25,7 @@
 
 ## 2. 종류
 
-![image-20210104231145100](C:\Users\JJIYOM\AppData\Roaming\Typora\typora-user-images\image-20210104231145100.png)
+![image-20210104231145100](https://user-images.githubusercontent.com/45457678/83468305-54638480-a4b7-11ea-9041-2da165d53b3e.png)
 
 [<Wikipedia 참고>](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84)
 
