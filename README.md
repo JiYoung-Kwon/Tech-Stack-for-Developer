@@ -16,4 +16,4 @@
 ## :pushpin: WEB​
 
 * [Cookie & Session](https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/blob/main/docs/WEB/%5BWEB%5D%20%EC%BF%A0%ED%82%A4%EC%99%80%20%EC%84%B8%EC%85%98.md)
-* CSR vs SSR
+* [CSR & SSR](https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/blob/main/docs/WEB/%5BWEB%5D%20CSR%EA%B3%BC%20SSR%20%EC%B0%A8%EC%9D%B4.md)
