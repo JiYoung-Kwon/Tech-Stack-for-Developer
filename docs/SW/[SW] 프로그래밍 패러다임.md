@@ -62,7 +62,7 @@
 
 ***
 
-##### :book: OOP​ 
+##### :book: OOP :star:
 
 * **Object Oriented Programming**의 줄임말로, 객체 지향 프로그래밍이라고 부른다.
 
@@ -91,23 +91,67 @@
 * 목표는 명시하지만 알고리즘은 명시하지 않는다.
 * `무엇을(What)`
 * 과정을 하나하나 기술하는 것 보다 필요한 것이 어떤 것인지 기술하는 데 방점을 두고 애플리케이션의 구조를 세워나감
+* +ex) DB : Create Table
 
 ***
 
 ##### :book: FP 
 
 * **Functional Programming**의 줄임말로, 함수형 프로그래밍이라고 부른다.
+
 * 프로그램을 하나의 큰 **함수**로 보고, 그것을 작은 함수들의 합성함수로 구현해 문제를 해결하는 방식
+
 * 대표적인 함수형 프로그래밍 언어 : Scala
 
-##### :book: RP 
+  +)1. **장점**
 
-* **Reactive Programming**의 줄임말로, 반응형 프로그래밍이라고 부른다.
+  - 함수가 사이드 이펙트를 가지지 않아 동시성과 관련된 문제를 원천적으로 봉쇄
+    - +) 함수에 들어온 input에 대해서만 조작을 해서 output하는 것을 지향함 
+  - 테스트 용이
+
+  2. **단점**
+
+  - 상태가 없으므로 함수형 프로그래밍 패러다임만 사용하여 프로그램을 작성할 수 없음
+
+  +) 명령형 -> 함수형 프로그래밍
+
+  ``` javascript
+  // 명령형
+  function add (arr) {
+    let result = 0
+    for (let i = 0; i < arr.length; i++){
+      result += arr[i]
+    }
+    return result
+  }
+  ```
+
+   ```javascript
+  // 함수형
+  function add (arr) {
+    return arr.reduce((prev, current) => prev + current, 0)
+  }
+   ```
+
+  
+
+##### :book: RP :star:
+
+* **Reactive Programming**의 줄임말로, 반응형 프로그래밍이라고 부른다. 
 * **비동기 데이터 흐름**에 기반을 둔 프로그래밍 패러다임
 * 언제 변할지 모르는 수많은 데이터를 일일히 추적하기 때문에, 컴퓨터 성능을 저하시켜 고속처리에 사용하기에는 적합하지 않음
 * 다수의 비동기 이벤트를 효과적으로 처리할 수 있기 때문에 사용자 경험을 개선할 수 있음
 
++) 반응형 프로그래밍 장.단점
 
+​	**장점** : 동기식 비효율처리로 인한 병목 현상 해결, 생산성 
+
+​	**단점** : 수많은 데이터를 일일히 추적, 컴퓨터 성능 저하 -> 고속처리에 적합하지 않음
+
+* 반응형이 아닌 경우 : 1초 처리 + 10초 처리 각각이 모여야 View를 그릴 수 있을 경우 => 10초가 걸림
+* 반응형 : 따로 요청을 보내서 처리가 끝난 것부터 먼저 그려짐 
+
+![image-20210110063631410](https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/tree/main/resources/RP.png)
 
 ## :page_with_curl: Reference
 
@@ -116,3 +160,4 @@
 [프로그래밍 언어 패러다임 3가지](https://velog.io/@dnjscksdn98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%96%B8%EC%96%B4-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84-3%EA%B0%80%EC%A7%80)
 
 [프로그래밍 패러다임](https://daeun28.github.io/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99-%EC%8A%A4%ED%84%B0%EB%94%94/post23/)
+

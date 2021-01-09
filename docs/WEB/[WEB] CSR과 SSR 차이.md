@@ -23,6 +23,8 @@
 * **최초 한 번 페이지 전체를 로딩**. 이후 데이터만 변경하여 사용할 수 있는 웹 애플리케이션
 * SPA는 기본적으로 CSR 방식을 사용한 것.  **SPA != CSR**
 
++) Angular, Vue, React : SPA 프레임워크
+
 
 
 ## 2. CSR(Client Side Rendering)
@@ -44,9 +46,26 @@
 
 
 
++) 예시 페이지 소스 코드(Olive Platform - Kakao) //Angular
+
+![kakao.png](https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/tree/main/resources/kakao.png)
+
+* 페이지 소스 코드에 콘텐츠 정보 없음
+
+* 그렇다면 어떻게 화면이 그려졌을까? -> JavaScript로 그려짐
+
+  > ![js.png](https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/tree/main/resources/js.png)
+
+* 콘텐츠가 달라져도 페이지 소스 코드는 동일함
+
+
+
 ## 3. SSR(Server Side Rendering)
 
 * 서버에서 렌더링을 마치고, Data가 결합된 (완성된) HTML 파일을 내려주는 방식
+
+  +) View로 return
+
 * 요청 시 마다 새로고침이 일어나며 서버에 새로운 페이지에 대한 요청을 하는 방식
 
 ![img](https://media.vlpt.us/images/ru_bryunak/post/772ce7cf-f920-4373-8202-ed862e77c22e/546df7c4b04ea9ca5f72d822ca1d23b4.png)
@@ -60,6 +79,16 @@
 
 > * 매번 페이지를 요청할 때마다 새로고침 됨 -> 사용자 UX가 다소 떨어짐
 > * 서버에 매번 요청을 하기에 트래픽, 서버 부하가 커짐
+
+
+
++) 예시 페이지 소스 코드 (Naver)
+
+![naver.png](https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/tree/main/resources/naver.png)
+
+* 사용자 접근 시, div를 서버에서 만들어서 View에게 보내줌
+* 콘텐츠에 대한 정보가 페이지 소스 코드에 포함되어 있음
+* 콘텐츠가 달라지면 소스 코드도 바뀜
 
 
 
