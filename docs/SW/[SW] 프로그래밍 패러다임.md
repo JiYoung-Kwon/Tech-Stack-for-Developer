@@ -151,7 +151,7 @@
 * 반응형이 아닌 경우 : 1초 처리 + 10초 처리 각각이 모여야 View를 그릴 수 있을 경우 => 10초가 걸림
 * 반응형 : 따로 요청을 보내서 처리가 끝난 것부터 먼저 그려짐 
 
-![image-20210110063631410](https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/tree/main/resources/RP.png)
+![image-20210110063631410](https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/blob/main/resources/RP.png)
 
 ## :page_with_curl: Reference
 
