@@ -51,7 +51,7 @@
   3. fork a child (자식 프로세스를 만들 때)
   4. wait for an interrupt (인터럽트 처리를 기다릴 때)
 
-<img src=./resources/context_switching.png width = 90%>
+<img src=https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/blob/main/resources/context_switching.png width = 90%>
 
 <br/>
 
