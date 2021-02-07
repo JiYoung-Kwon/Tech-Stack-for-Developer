@@ -48,13 +48,13 @@
 
 +) 예시 페이지 소스 코드(Olive Platform - Kakao) //Angular
 
-![kakao.png](https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/blob/main/resources/kakao.png)
+![kakao.png](./resources/kakao.png)
 
 * 페이지 소스 코드에 콘텐츠 정보 없음
 
 * 그렇다면 어떻게 화면이 그려졌을까? -> JavaScript로 그려짐
 
-  > ![js.png](https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/blob/main/resources/js.png)
+  > ![js.png](./resources/js.png)
 
 * 콘텐츠가 달라져도 페이지 소스 코드는 동일함
 
@@ -84,7 +84,7 @@
 
 +) 예시 페이지 소스 코드 (Naver)
 
-![naver.png](https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/blob/main/resources/naver.png)
+![naver.png](./resources/naver.png)
 
 * 사용자 접근 시, div를 서버에서 만들어서 View에게 보내줌
 * 콘텐츠에 대한 정보가 페이지 소스 코드에 포함되어 있음

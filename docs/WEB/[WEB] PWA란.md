@@ -16,7 +16,7 @@
 * 홈스크린에 바로가기 아이콘을 설치 할 수 있게 하는 기술
 * 서버의 소식을 클라이언트에 전하는 Push기술
 * 예시 - Appscope
-* <img src=https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/blob/main/resources/pwa.png width = 70%>
+* <img src=./resources/pwa.png width = 70%>
 
 <br/>
 

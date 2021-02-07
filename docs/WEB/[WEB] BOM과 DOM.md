@@ -41,7 +41,6 @@
 
 
 
-
 ## 2. DOM(Document Object Model)
 
 * 문서에 대한 모든 내용을 담고 있는 객체
@@ -86,6 +85,7 @@
   > Attribute Node와 Text Node를 자식으로 가질 수 있음
   >
   > * 자식 노드를 변경하여 웹 페이지를 동적으로 조작할 수 있음
+
   * **속성 노드 (Attribute Node)**
 
     > 태그의 모든 속성은 Attribute Node로 표현
