@@ -62,5 +62,6 @@
 * [Collection Framework [Set 컬렉션]](./docs/JAVA/%5BJAVA%5D%20컬렉션%20프레임워크%20-%20Set%20컬렉션.md)
 * [Collection Framework [Map 컬렉션]](./docs/JAVA/%5BJAVA%5D%20컬렉션%20프레임워크%20-%20Map%20컬렉션.md)
 * [Collection Framework [List 컬렉션]](./docs/JAVA/%5BJAVA%5D%20컬렉션%20프레임워크%20-%20List%20컬렉션.md)
+* [Stream(Map,Filter)](./docs/JAVA/%5BJAVA%5D%20Stream(filter%2Cmap).md)
 #### 		:green_book: JAVASCRIPT
 * [자바스크립트 언어 동작 원리](https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/blob/main/docs/JAVASCRIPT/%5BJAVASCRIPT%5D%20자바스크립트%20언어%20동작%20원리.md)
