@@ -68,3 +68,4 @@
 * [자바스크립트 언어 동작 원리](https://github.com/JiYoung-Kwon/Tech-Stack-for-Developer/blob/main/docs/JAVASCRIPT/%5BJAVASCRIPT%5D%20자바스크립트%20언어%20동작%20원리.md)
 
 ## :pushpin: ETC..
+* [[GIT] Git 브랜치 전략 (Github flow, Git flow)](./docs/ETC/%5BGIT%5D%20Git%20%E1%84%87%E1%85%B3%E1%84%85%E1%85%A2%E1%86%AB%E1%84%8E%E1%85%B5%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%85%E1%85%A3%E1%86%A8%20(Github%20flow%2C%20Git%20flow).md)
